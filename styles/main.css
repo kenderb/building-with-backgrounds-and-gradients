@@ -16,3 +16,64 @@
 img {
   width: 100%;
 }
+
+main {
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.display-grid {
+  width: 90rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 680px 198px;
+  grid-template-areas:
+
+    "header-div header-div header-div header-div"
+    "iphone-5s iphone-5c 30-years div-responsibility";
+  gap: 2px;
+}
+
+.header-div {
+  flex-direction: column;
+  align-items: center;
+  background: url("../assets/images/bg-image.jpg") 0.01rem 289rem;
+  background-color: burlywood;
+  grid-area: header-div;
+}
+
+.header-div img {
+  width: 60em;
+}
+
+.first-image-text {
+  margin-top: 15rem;
+}
+
+.navbar {
+  flex-direction: row;
+  color: aliceblue;
+  width: 10rem;
+  background-color: rgb(43, 43, 43);
+}
+
+.div-verse-img {
+  overflow: hidden;
+  height: 45px;
+}
+
+.div-verse-img img {
+  margin-top: 0.8rem;
+  width: 36rem;
+}
