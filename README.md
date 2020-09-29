@@ -1,65 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML and CSS NY Time page clone
 
-> One paragraph statement about the project.
+> This is an NY timepage clone made for an assignment of HTML/CSS.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+We created this project using some images and buttons tags, also we used flex boxes, floats and gird systems for positioning.
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML.
+- CSS.
+- VS Code.
+- Git/GitHub.
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://kenderb.github.io/NYTime-page-clone/)
 
 
-## Getting Started
+## How to run it
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple steps.
 
 
-To get a local copy up and running follow these simple example steps.
+* If you're using latest version of git.
 
-### Prerequisites
+* Clone this url https://github.com/kenderb/New-York-Times-article-page.git on your local host.
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+* You have to use a Web explorer browser like Google Chrome or Mozilla Firefox to open the index.html file.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **carloso0114**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@carloso0114](https://github.com/AlejandroNo4)
+- Twitter: [@Carlos_Osp1](https://twitter.com/Carlos_Osp1)
+- LinkedIn: [Carlos Ospina](https://www.linkedin.com/in/carlos-ospina-242b831a6/)
 
-👤 **Author2**
+👤 **KenderB**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
+- GitHub: [@kenderb](https://github.com/githubhandle)
+- Twitter: [@KBTarts](https://twitter.com/KBTarts)
+- LinkedIn: [Kender Bolivar](https://www.linkedin.com/in/kender-bolivar-1736086b//)
 
 ## Show your support
 
@@ -67,10 +54,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- NY timepage clone.
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/kenderb/New-York-Times-article-page/blob/Clone-page/LICENSE) licensed.
+
