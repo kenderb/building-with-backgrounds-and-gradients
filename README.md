@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML and CSS NY Time page clone
+# HTML and CSS Apple old page clone
 
-> This is an NY timepage clone made for an assignment of HTML/CSS.
+> This is an Apple old page clone made for an assignment of HTML/CSS.
 
 ![screenshot](./app_screenshot.png)
 
