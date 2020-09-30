@@ -20,7 +20,7 @@
 
 footer {
   margin: 20px auto auto auto;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 11px;
   max-width: 1300px;
   color: #6e6e6e;
@@ -93,7 +93,6 @@ footer a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 650px 1fr;
   grid-template-areas:
-
     "header-div header-div header-div header-div"
     "iphone-5s iphone-5c 30-years div-responsibility";
   gap: 2px;
@@ -119,14 +118,21 @@ footer a {
   height: 36px;
   width: 980px;
   border-radius: 0.2rem;
-  background: 
-    linear-gradient(0deg, #3c3c3c 0%,
-    #7a7a7a 1%, #6f6f6f 16%,
-    #4f4f4f 45%, #505050 48%,
-    #5e5e5e 51%, #757575 53%,
-    #979797 99%, #4f4f4f 100%
-     );
-  font-family: SF-Pro-Text-Regular, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background:
+    linear-gradient(
+      0deg,
+      #3C3C3C 0%,
+      #7A7A7A 1%,
+      #6F6F6F 16%,
+      #4F4F4F 45%,
+      #505050 48%,
+      #5E5E5E 51%,
+      #757575 53%,
+      #979797 99%,
+      #4F4F4F 100%
+    );
+  font-family: SF-Pro-Text-Regular, "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 0.83em;
   overflow: hidden;
 }
