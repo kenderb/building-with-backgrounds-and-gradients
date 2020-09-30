@@ -13,26 +13,18 @@
   box-sizing: inherit;
 }
 
-body {
+footer {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-	font-size: 10px;
-	color: #6E6E6E;
+  font-size: 10px;
+  color: #6e6e6e;
 }
 
 img {
   width: 100%;
 }
 
-main {
-  margin: auto;
-}
-
 li {
   list-style: none;
-}
-
-.margin-auto {
-  margin: auto;
 }
 
 .flex-box {
@@ -40,10 +32,10 @@ li {
 }
 
 .display-grid {
-  width: 90rem;
+  min-width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 680px 198px;
+  grid-template-rows: 650px 1fr;
   grid-template-areas:
 
     "header-div header-div header-div header-div"
@@ -54,8 +46,8 @@ li {
 .header-div {
   flex-direction: column;
   align-items: center;
-  background: url("../assets/images/bg-image.jpg") 0.01rem 289rem;
-  background-color: burlywood;
+  background: #b3d9e9 url("../assets/images/bg-image.jpg") center 700px;
+  background-size: cover;
   grid-area: header-div;
 }
 
@@ -64,24 +56,22 @@ li {
 }
 
 .first-image-text {
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 
 .navbar {
-  margin-top: 11.8em;
+  margin-top: 5%;
   flex-direction: row;
   color: aliceblue;
   height: 36px;
   width: 980px;
-  background-image: url("../assets/images/nav-gradient.png");
-  background-repeat: no-repeat;
+  background: url("../assets/images/nav-gradient.png") no-repeat;
   overflow: hidden;
 }
 
 .navbar img {
   width: 172px;
   margin-left: -85px;
-  
 }
 
 .menu-icons {
@@ -113,35 +103,34 @@ li {
   position: relative;
   top: -94px;
 }
+
 .iphone-text {
   position: relative;
   top: -126px;
 }
+
 .ipad-text {
   position: relative;
   top: -160px;
 }
+
 .itunes-text {
   position: relative;
   top: -192px;
 }
+
 .support-text {
   position: relative;
   top: -224px;
 }
+
 .search-bar {
   position: relative;
   top: 7.6px;
-  background-color: rgba(146, 146, 146, 0.301);
   width: 100px;
   height: 22px;
   border-radius: 25px;
-  background-image: url(../assets/icons/search-outline.svg);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: 5px;
+  background: #b2b2b2 url("../assets/icons/search-outline.svg") 2px center no-repeat;
+  background-size: 18px;
   filter: invert();
-  
 }
-
