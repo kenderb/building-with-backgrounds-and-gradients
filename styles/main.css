@@ -13,6 +13,13 @@
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: SF-Pro-Text-Regular;
+  src: url("../assets/fonts/SF-Pro-Text-Light.otf");
+}
+
+
+
 footer {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
   font-size: 10px;
@@ -25,6 +32,10 @@ img {
 
 li {
   list-style: none;
+}
+
+form {
+  position: relative;
 }
 
 .flex-box {
@@ -68,6 +79,8 @@ li {
   width: 980px;
   border-radius: 0.2rem;
   background: url("../assets/images/nav-gradient.png") no-repeat;
+  font-family: SF-Pro-Text-Regular;
+  font-size: 0.83em;
 }
 
 .navbar img {
@@ -94,10 +107,11 @@ li {
 .menu-icons a {
   text-decoration: none;
   color: white;
+  -webkit-user-drag: none;
 }
 
 .div-verse-img {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 45px;
 }
 
@@ -147,7 +161,12 @@ li {
   width: 140px;
   height: 25px;
   border-radius: 25px;
-  background: #f1f1f16b url("../assets/icons/search-outline.svg") 2px center no-repeat;
-  background-size: 18px;
+  background-color: #f1f1f16b;
   filter: brightness(60%);
+}
+
+.search-icon {
+ position: absolute;
+ right:117px;
+ top: 12.5px;
 }
