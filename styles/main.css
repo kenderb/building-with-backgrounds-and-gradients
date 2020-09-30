@@ -119,13 +119,19 @@ footer a {
   height: 36px;
   width: 980px;
   border-radius: 0.2rem;
-  background: 
-    linear-gradient(0deg, #3c3c3c 0%,
-    #7a7a7a 1%, #6f6f6f 16%,
-    #4f4f4f 45%, #505050 48%,
-    #5e5e5e 51%, #757575 53%,
-    #979797 99%, #4f4f4f 100%
-     );
+  background:
+    linear-gradient(
+      0deg,
+      #3c3c3c 0%,
+      #7a7a7a 1%,
+      #6f6f6f 16%,
+      #4f4f4f 45%,
+      #505050 48%,
+      #5e5e5e 51%,
+      #757575 53%,
+      #979797 99%,
+      #4f4f4f 100%
+    );
   font-family: SF-Pro-Text-Regular, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 0.83em;
   overflow: hidden;
