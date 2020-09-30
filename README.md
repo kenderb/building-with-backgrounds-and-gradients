@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps.
 
 * If you're using latest version of git.
 
-* Clone this url https://github.com/kenderb/New-York-Times-article-page.git on your local host.
+* Clone this url https://github.com/kenderb/building-with-backgrounds-and-gradients.git on your local host.
 
 * You have to use a Web explorer browser like Google Chrome or Mozilla Firefox to open the index.html file.
 
@@ -58,5 +58,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/kenderb/New-York-Times-article-page/blob/Clone-page/LICENSE) licensed.
+This project is [MIT](https://github.com/kenderb/building-with-backgrounds-and-gradients/blob/apple-clone-page/LICENSE) licensed.
 
