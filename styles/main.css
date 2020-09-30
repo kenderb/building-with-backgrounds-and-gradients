@@ -47,7 +47,7 @@ li {
   flex-direction: column;
   align-items: center;
   background: #b3d9e9 url("../assets/images/bg-image.jpg") center 700px;
-  background-size: cover;
+  background-size: 100%;
   grid-area: header-div;
 }
 
