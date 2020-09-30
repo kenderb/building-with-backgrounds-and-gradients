@@ -62,11 +62,12 @@ li {
 .navbar {
   margin-top: 5%;
   flex-direction: row;
+  justify-content: space-around;
   color: aliceblue;
   height: 36px;
   width: 980px;
+  border-radius: 0.2rem;
   background: url("../assets/images/nav-gradient.png") no-repeat;
-  overflow: hidden;
 }
 
 .navbar img {
@@ -75,8 +76,24 @@ li {
 }
 
 .menu-icons {
+  width: 50rem;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-icons span {
+  padding: 0.6rem 2rem;
+  border-right: 1.5px #5e5e5e solid;
+}
+
+.menu-icons span:hover {
+  background-color: #0000003f;
+}
+
+.menu-icons a {
+  text-decoration: none;
+  color: white;
 }
 
 .div-verse-img {
@@ -126,11 +143,11 @@ li {
 
 .search-bar {
   position: relative;
-  top: 7.6px;
-  width: 100px;
-  height: 22px;
+  top: 6px;
+  width: 140px;
+  height: 25px;
   border-radius: 25px;
-  background: #b2b2b2 url("../assets/icons/search-outline.svg") 2px center no-repeat;
+  background: #f1f1f16b url("../assets/icons/search-outline.svg") 2px center no-repeat;
   background-size: 18px;
-  filter: invert();
+  filter: brightness(60%);
 }
