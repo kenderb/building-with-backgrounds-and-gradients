@@ -54,7 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- NY timepage clone.
+- Apple old plage clone.
 
 ## 📝 License
 
