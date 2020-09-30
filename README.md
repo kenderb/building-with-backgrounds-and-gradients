@@ -19,7 +19,7 @@ We created this project using some images and buttons tags, also we used flex bo
 
 ## Live Demo
 
-[Live Demo Link](https://kenderb.github.io/NYTime-page-clone/)
+[Live Demo Link](https://kenderb.github.io/apple-page-clone/)
 
 
 ## How to run it
