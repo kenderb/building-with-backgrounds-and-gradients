@@ -46,7 +46,7 @@ form {
 
 header {
   position: absolute;
-  top: 3%;
+  top: 10%;
   width: 100%;
 }
 
@@ -85,7 +85,7 @@ footer a {
 }
 
 .div-verse-img {
-  margin-top: 2.2em;
+  margin-top: 1.8em;
 }
 
 .div-verse-img a:hover {
@@ -186,7 +186,7 @@ footer a {
 }
 
 .height-main-verse-be {
-  margin-top: 110px;
+  margin-top: 250px;
   font-weight: lighter;
   font-size: 65px;
 }
